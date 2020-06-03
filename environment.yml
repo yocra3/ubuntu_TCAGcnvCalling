@@ -1,0 +1,13 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: cnvcalling-1.0.0
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - pwwang
+
+dependencies:
+  ## bioconda packages, see above
+  - cnvnator=0.3.3
+  - erds=1.1
